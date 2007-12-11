@@ -1,6 +1,6 @@
 Name:           telepathy-feed
 Version:        0.13
-Release:        %mkrel 1
+Release:        %mkrel 2
 Summary:        A Galago feed for Telepathy
 
 Group:          Communications
