@@ -9,7 +9,7 @@ URL:            http://telepathy.freedesktop.org/wiki
 Source0:        http://telepathy.freedesktop.org/releases/%{name}/%{name}-%{version}.tar.bz2
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root
 
-BuildRequires:  libtelepathy-devel
+BuildRequires:  %{_lib}telepathy-devel
 BuildRequires:  libgalago-devel
 
 
