@@ -5,7 +5,7 @@ Summary:        A Galago feed for Telepathy
 
 Group:          Communications
 License:        LGPL
-URL:            http://telepathy.freedesktop.org/wiki
+URL:            https://telepathy.freedesktop.org/wiki
 Source0:        http://telepathy.freedesktop.org/releases/%{name}/%{name}-%{version}.tar.bz2
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root
 
