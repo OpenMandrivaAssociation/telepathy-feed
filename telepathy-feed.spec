@@ -9,6 +9,11 @@ URL:            https://telepathy.freedesktop.org/wiki
 Source0:        http://telepathy.freedesktop.org/releases/%{name}/%{name}-%{version}.tar.bz2
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:  %{_lib}telepathy-devel
 BuildRequires:  libgalago-devel
 
